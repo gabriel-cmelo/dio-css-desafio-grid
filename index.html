@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Youtube grid page</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="material-icons menu-icon">menu</i>
+            <img src="https://s3-alpha-sig.figma.com/img/226e/23ea/117ae4277f6ac9be461fc1ec2555fed3?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=plAD55UE0zh4o5BF4iVKb2XvX9-ClTviWL5ylKmD71R~EbVjmPDcAjCVoi9zs15tgTYPLg5SinrDLAHp~F0IR9L7Y43sLQsz2ZKpAhObPz73aTiZMftBOiAGIlDrKjp2MX0njLNDxAJV0KnxXkbBv5E5J8E3YEsxytV3BgPByEFrsx1a9vB6w6rGC2~VDx-k5SJ9GWDFLGOCgiQfTWTZjOgytRBftubyLQj6O-06fr0VkFGiQTm7dVcABnLQwV7px-px-fYpDhI9hMho6HKEGlQjcrc436~hCGosg~KPi0dsdzuxkj5-24Po~LwmL4VVGIauL~9Qwk58lY9fZWf6BQ__" alt="Youtube logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar">
+            <button><i class="material-icons">search</i></button>
+        </div>
+        <div class="nav-icons">
+            <i class="material-icons">ondemand_video</i>
+            <i class="material-icons">grid_on</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </header>
+    <main>
+        <section class="sidebar">
+            <div class="sidebar-container">
+                <a href="#"><i class="material-icons">home</i>Início</a>
+                <a href="#"><i class="material-icons">explore</i>Explorar</a>
+                <a href="#"><i class="material-icons">subscriptions</i>Inscrições</a>
+                <a href="#"><i class="material-icons">library_music</i>YouTube Music</a>
+                <a href="#"><i class="material-icons">thumb_up</i>Vídeos que gostei</a>
+                <a href="#"><i class="material-icons">watch_later</i>Assistir mais tarde</a>
+                <a href="#"><i class="material-icons">cloud_download</i>Downloads</a>
+                <a href="#"><i class="material-icons">movie</i>Filmes</a>
+                <a href="#"><i class="material-icons">school</i>Aprender</a>
+                <a href="#"><i class="material-icons">sports</i>Esportes</a>
+            </div>
+        </section>
+        <section class="video-grid">
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/qZJlKuHpFKc/maxresdefault.jpg" alt="Thumbnail 1">
+                <div class="video-details">
+                    <h3>Desbravando a Inteligência Artificial: o Futuro da Tecnologia</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">4,8 mil visualizações</p>
+                    <p class="subtext">2 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/UigGfYwRkCg/maxresdefault.jpg" alt="Thumbnail 2">
+                <div class="video-details">
+                    <h3>OutSystems: Domine o mundo de desenvolvimento low code.</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">1,1 mil visualizações</p>
+                    <p class="subtext">7 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/5dr4tIh4pCs/maxresdefault.jpg" alt="Thumbnail 3">
+                <div class="video-details">
+                    <h3>Formação DevOps Fundamentals - Aprenda os fundamentos na prática</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">2 mil visualizações</p>
+                    <p class="subtext">4 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/qZJlKuHpFKc/maxresdefault.jpg" alt="Thumbnail 4">
+                <div class="video-details">
+                    <h3>Desbravando a Inteligência Artificial: o Futuro da Tecnologia</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">4,8 mil visualizações</p>
+                    <p class="subtext">2 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/UigGfYwRkCg/maxresdefault.jpg" alt="Thumbnail 5">
+                <div class="video-details">
+                    <h3>OutSystems: Domine o mundo de desenvolvimento low code.</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">1,1 mil visualizações</p>
+                    <p class="subtext">7 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/5dr4tIh4pCs/maxresdefault.jpg" alt="Thumbnail 6">
+                <div class="video-details">
+                    <h3>Formação DevOps Fundamentals - Aprenda os fundamentos na prática</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">2 mil visualizações</p>
+                    <p class="subtext">4 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/qZJlKuHpFKc/maxresdefault.jpg" alt="Thumbnail 7">
+                <div class="video-details">
+                    <h3>Desbravando a Inteligência Artificial: o Futuro da Tecnologia</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">4,8 mil visualizações</p>
+                    <p class="subtext">2 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/UigGfYwRkCg/maxresdefault.jpg" alt="Thumbnail 8">
+                <div class="video-details">
+                    <h3>OutSystems: Domine o mundo de desenvolvimento low code.</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">1,1 mil visualizações</p>
+                    <p class="subtext">7 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/5dr4tIh4pCs/maxresdefault.jpg" alt="Thumbnail 9">
+                <div class="video-details">
+                    <h3>Formação DevOps Fundamentals - Aprenda os fundamentos na prática</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">2 mil visualizações</p>
+                    <p class="subtext">4 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/qZJlKuHpFKc/maxresdefault.jpg" alt="Thumbnail 10">
+                <div class="video-details">
+                    <h3>Desbravando a Inteligência Artificial: o Futuro da Tecnologia</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">4,8 mil visualizações</p>
+                    <p class="subtext">2 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/UigGfYwRkCg/maxresdefault.jpg" alt="Thumbnail 11">
+                <div class="video-details">
+                    <h3>OutSystems: Domine o mundo de desenvolvimento low code.</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">1,1 mil visualizações</p>
+                    <p class="subtext">7 meses atrás</p>
+                </div>
+            </div>
+            <div class="video-item">
+                <img src="https://img.youtube.com/vi/5dr4tIh4pCs/maxresdefault.jpg" alt="Thumbnail 12">
+                <div class="video-details">
+                    <h3>Formação DevOps Fundamentals - Aprenda os fundamentos na prática</h3>
+                    <a href="#"><img src="https://s3-alpha-sig.figma.com/img/36b1/4fea/c543d9a89bb4b3472f8e60458b54e2b9?Expires=1707091200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=URzuqwzandgcLwzjIJlw~Nf4Q9OLD875k55fCUjVGqbDEJsaYItZ6V8dx9ZLRJ6rbFOoM2GDUUb6mT2V1FIm0tp30PkngCZUIvdgWmLkc5fPiXchcTm6aWBRLljZP~~~A48IlhpZBXwBXvZ2rC4uJ3~OXhTCX03E1o49YqK~Mm6mMt4upXYND0q6LZLxQgublq8V~ZbDGFMEK8gQTcgEIYw5ymk9OV7-5omuUye6wZKmhCg9MTgWalGL77LKiOeVx3LeGA70u4D~lS~7aDwijXF53mg25Zfp51zuNmlCVstFLrMt9KwwoN8CdV4bwAF0w5vvSS7l~dTZ31S69f9C8g__" alt="Channel Avatar">
+                    <h2>DIO</h2></a>
+                    <p class="subtext">2 mil visualizações</p>
+                    <p class="subtext">4 meses atrás</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 YouTube, Inc.</p>
+    </footer>
+</body>
+</html>
